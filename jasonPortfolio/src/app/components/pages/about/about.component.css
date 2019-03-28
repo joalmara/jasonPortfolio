@@ -1,0 +1,18 @@
+.aboutText{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px
+}
+
+.containerfooter{
+	text-align: center;
+}
+
+.photo{
+	border-radius: 50%;
+	 width:350px;
+	 height:300px;
+	 border-width: 20px;
+
+}
