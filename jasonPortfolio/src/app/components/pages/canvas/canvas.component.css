@@ -30,6 +30,11 @@
         
   }
  
+  .textIndent{
+    padding-left: 60px;
+  }
+
+
   .card{
     padding: 70px;
     margin-top: 20px;
@@ -62,3 +67,6 @@
     padding: 20px;
   }
   
+figcaption{
+    font-size: 10px;
+}
