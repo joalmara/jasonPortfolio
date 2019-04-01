@@ -1,0 +1,64 @@
+.lead{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px
+}   
+
+.canvas{
+    margin-top: 15px;   
+    margin-right: 100px;
+
+}
+
+.VRSection img[src="https://static1.squarespace.com/static/5c9acc54f4e53176d6f6ca73/t/5c9cfdb81905f4fa955d5460/1553792455173/1.png?format=500w"] {
+
+    position: relative;
+    top: 50px;
+    left: 100px;
+    bottom: 100px;
+  }
+
+  .leftText{
+    margin-left:40px;
+    margin-right:20px;
+  }
+
+
+  .bulletStyle{
+        list-style: none; /* Remove list bullets */        display: inline-block
+        
+  }
+ 
+  .card{
+    padding: 70px;
+    margin-top: 20px;
+
+  }
+  
+
+  .container {
+    padding: 64px;
+  }
+  
+  /* Clear floats */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  /* 2/3 column */
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  /* 1/3 column */
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
