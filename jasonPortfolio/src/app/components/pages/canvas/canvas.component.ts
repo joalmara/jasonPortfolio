@@ -11,17 +11,7 @@ export class CanvasComponent implements OnInit {
 
   ngOnInit() {
   }
-  items = [
-    { title: 'Slide 1' },
-    { title: 'Slide 2' },
-    { title: 'Slide 3' },
-  ]
-  
-  addSlide() {
-    this.items.push({
-      title: `Slide 4`
-    });
-  }
+
   
 
 }
