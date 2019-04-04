@@ -35,24 +35,42 @@
   }
 
 .textIndentR{
-    padding-left: 70px;
+    padding-left: 10px;
     text-align: center;
     list-style-position: inside;
     list-style: none; /* Remove list bullets */      
-    font-size: 20px;
-
-
 }
+
+.liIndent{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;}
+
 
   .card{
     padding: 100px;
     margin-top: 20px;
-
   }
   
 
+.mainTitle{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
   .container {
     padding: 120px;
+  }
+
+  .container1 {
+      
+    padding-left: 70px;
+    padding-right:40px;
+
+  }
+  .card1
+  {
+      padding:15px
+      
   }
   
   /* Clear floats */
@@ -221,5 +239,10 @@ figcaption{
 
   li {
     font-family: 'PT Sans', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
   }
