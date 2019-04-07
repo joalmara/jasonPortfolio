@@ -10,6 +10,9 @@ import { CanvasComponent } from './components/pages/canvas/canvas.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './slider/slider.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { VRTherapyComponent } from './components/pages/vrtherapy/vrtherapy.component';
+import { ResearchCanvasComponent } from './research-canvas/research-canvas.component';
+import { PrototypeSliderComponent } from './prototype-slider/prototype-slider.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,12 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     AboutComponent,
     HeaderComponent,
     CanvasComponent,
-    SliderComponent
+    SliderComponent,
+    VRTherapyComponent,
+    
+    ResearchCanvasComponent,
+    
+    PrototypeSliderComponent
   ],
   imports: [
     BrowserModule,
