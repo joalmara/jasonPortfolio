@@ -4,7 +4,8 @@
 	  <meta charset="utf-8">
 
 	<title> Jason Almaraz | User Experience Designer </title>
-	<!-- Boostrap CSS from a CDN -->
+    <!-- Boostrap CSS from a CDN -->
+    
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
@@ -25,51 +26,489 @@
   <script src="angular-youtube-embed.js"></script>
 </head>
 
-<body>
+<body> 
 
-<div class="container">
-    
-  <div class="container colTop py-3 mb-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+                <a class="navbar-brand js-scroll-trigger" href="VRTherapy">
+                  <span class="d-block d-lg-none">VR Group Therapy</span>
+                  <span class="d-none d-lg-block">
+                    VR Group Therapy
+                  </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" href="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
 
-    <div class="column"> 
-      <strong> <h2 style="text-align: center; text-decoration: underline"> VR Group Therapy </h2> </strong>
-    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a pageScroll class="nav-link js-scroll-trigger" href="#introduction"> Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                      <a pageScroll class="nav-link js-scroll-trigger" href="#leancanvas"> Lean Canvas </a>
+                    </li>
+                    <li class="nav-item">
+                      <a pageScroll class="nav-link js-scroll-trigger" href="#value"> Value Proposition</a>
+                    </li>
+                    <li class="nav-item">
+                      <a pageScroll class="nav-link js-scroll-trigger" href="#research"> Research Method </a>
+                    </li>
+                    <li class="nav-item">
+                      <a  pageScroll class="nav-link js-scroll-trigger" href="#prototype"> Prototypes </a>
+                    </li>
 
-    <div class="column"> 
-      <strong> <h4 style="text-align: center; text-decoration: underline"> Vision Statement </h4> </strong>
-    </div>
+                    <li class="nav-item">
+                            <a  pageScroll class="nav-link js-scroll-trigger" href="#mvp"> MVP Visual Design </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                            <a  pageScroll class="nav-link js-scroll-trigger" href="#video"> Video Demo </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 
-    <div class="column"> 
-        <strong> <h5 style="text-align: center; "> Looking to bring people together to create a network of support and be committed to the wellness of individuals by implementing effective mental health and social-emotional consultation in a safe and confidential environment. </h5> </strong>
-      </div>
-</div>
 
+              <hr class="m-0">
 
-<section class="bg-light colTop py-3 mb-2"> 
-      <div class="row"  id ="over" style="display:table-cell; vertical-align:middle; text-align:center">
-
-          <div class ="column" >
-               
-              <figure> 
-               <p> <img  src="assets/images/VRTherapy/homepage.png" style="max-width: 70%">
-                <figcaption> Home Page of VR Group Therapy Application
-                  </figcaption>
-               </figure>
-           </div> 
+              <section class="resume-section p-5 p-lg-10 justify-content-center" id="introduction">
+                <div class="w-100">
+                  <h2 class="mb-5"> Introduction </h2>
           
-      </div>
-    </section>
+                  <div class="resume-item flex-column flex-md-row justify-content-between mb-10">
+                    <div class="resume-content">
+                      <h3 class="mb-0"> Vision Statement </h3>
+                      <div class="subheading mb-3"> Looking to bring people together to create a network of support and be committed to the wellness of inidivdual by implementing effective mental health and social-emotional consultation in a safe and confidential environment
+                        </div>
+                      <p>Our primary goal as a team was to find ways to build a network of support and a sense of belonging for individuals who are looking to tackle issues together in a non-intimidating and safe space. To do this, our team looked to design and build a mobile application in which users can schedule group therapy sessions through virtual reality. Users can take a free screening test - from the mental health america - with topics such as depression, anxiety, PTSD, etc to get feedback based on their answers from a questionnaire. Whichever results the users receive, the application will recommend different sessions in which they can enroll onto. Individuals can choose whichever sessions are convenient for them and determine the times in which they can join. Each session will be proctored by a trained psychiatrist who will guide conversation about whichever topic that is being discussed. The actual virtual reality session will then actually be utilized by a separate application known as vTime which supports group VR session through a mobile device. Users will have the option to choose their screen name and display the way look through the vTime application. In addition, each member must comply with the code of conduct that are set in place before joining a session, detailing the proper way of conversing within a group. Within these sessions individuals will meet to solve any problems, achieve any personal goals, track their emotions, improve communication and social skills and build the life they deserve. </p>
+                    </div>
+
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                            <section class="bg-light colTop py-3 mb-2"> 
+                                    <div class="row"  id ="over" style="display:table-cell; vertical-align:middle; text-align:center">
+                              
+                                        <div class ="column" >
+                                             
+                                            <figure> 
+                                             <p> <img  src="assets/images/VRTherapy/homepage.png" style="max-width: 70%">
+                                              <figcaption> Home Page of VR Group Therapy Application
+                                                </figcaption>
+                                             </figure>
+                                         </div> 
+                                        
+                                    </div>
+                                           
+                                                <div >  <img  class="img-fluid"  src="assets/images/VRTherapy/testing.png"> </div>
+                                                <div>  <img class="img-fluid"  src="assets/images/VRTherapy/etc.png" >   </div>
+                                  </section>
+ 
+                        
+                    </div>
+
+                  </div>
+          
+
+          
+                </div>
+          
+              </section>
+
+
+              <hr class="m-0">
+
+              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="leancanvas">
+                <div class="w-100">
+                  <h2 class="mb-5"> Lean Canvas </h2>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                            <div class="row"  id ="over" style="display:table-cell; vertical-align:middle; text-align:center">
+
+                                    <div class ="col-sm-12" >
+                                         
+                                        <figure> 
+                                         <p> <img class="img-fluid"  src="https://static1.squarespace.com/static/5c9acc54f4e53176d6f6ca73/t/5c9c07f6f4e1fc9cfaea3da6/1553729531166/lean.png?format=1500w" >
+                          
+                                         </figure>
+                                     </div>
+                            </div> 
+                                    
+                    </div>
+
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                    <div class="resume-content">
+                      <h3 class="mb-0">Additional Lean Canvas Notes</h3>
+                      <div class="subheading mb-3">What characteristics of your early adopters make them valuable to the product development?</div>
+                      <p>We primarily would target adults from ages 20 to 30 years who seem to be dealing with any type of anxiety of trauma in their lives. Usually individuals in these stages of their lives deal with a considerable amount of stress due to may of life’s changes in dealing with expenses, education, romance and career oriented goals. A study done at the Center on Healthy Aging at the University of California, San Diego detailed that those that are older seemed to be satisfied with their mental health, whereas those who are in their 20s and 30s reported to have much more exposure towards higher levels of stress, depression and anxiety. In addition, the individuals who within the ages of 20 and 30s are more likely to be comfortable using new and progressive technologies to improve their wellness and we speculated that this age group would likely consider using VR technology.</p>
+                    </div>
+
+                  </div>
+
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                        <div class="resume-content">
+                          <div class="subheading mb-3"> Why are your channels effective in reaching your targeted early adopters?</div>
+                          <p>We felt that if we exposed this application within already established therapy location, we could adopt users who are already using group therapy as a way to deal with their issues. This would be viewed as another alternative to help express their concerns in a much more convenient fashion than physically going to a seminar. In this day and age, it is also important to have a social media presence to help get good exposure to your brand and application to reach as many people as possible. </p>
+                        </div>
+    
+                      </div>
+
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                        <div class="resume-content">
+                          <div class="subheading mb-3">How do the listed key metrics provide accurate evaluation of your product’s success? </div>
+                          <p> Having this information at our disposal will help clarify whether our application is useful in tackling mental health issues. The amount of activity that is generated will give us a clear sense of who is constantly engaging in this sessions and let us know whether our initial goal of building a community of trust will be able to be reached.  </p>
+                        </div>
+    
+                      </div>
+          
+                </div>
+              </section>
+
+
+              <hr class="m-0">
+
+              <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="value">
+                <div class="w-100">
+                  <h2 class="mb-5"> Value Proposition  </h2>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                            <div class="row"  id ="over" style="display:table-cell; vertical-align:middle; text-align:center">
+
+                                    <div class ="col-sm-12" >
+                                         
+                                        <figure> 
+                                         <p> <img class="img-fluid"  src="https://static1.squarespace.com/static/5c9acc54f4e53176d6f6ca73/t/5c9c08bcfa0d6001708770b2/1553729728991/customer.png?format=1500w" >
+                          
+                                         </figure>
+                                     </div>
+                            </div> 
+                                    
+                    </div>
+
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                    <div class="resume-content">
+                      <h3 class="mb-0">Additional Value Proposition Notes</h3>
+                      <div class="subheading mb-3"> What customer pain does each product pain reliever address (and how, if not obvious) </div>
+                      <p>This application will give users the flexibility to schedule group therapy sessions within the times they are most available and to their choosing. Individuals no longer have to dedicate time to physically locate and determine which psychiatrist will be best for them, rather they can use this application to browse the different type of sessions that are offered. In addition, users can get a understanding of how the application is used given their ability to freely use it for the first 30 days.</p>
+                      <p> Those that enter actual group therapy may feel uncomfortable sharing their thoughts and emotions with others and are unsure what type of reactions they will receive. The way in which this application looks to relive this issue is by allowing users to create their own avatars of themselves through vTime and allow them to set their own screen name so that their likeness will not be publicized. Those who may feel embarrassed who go to traditional group therapy sessions will be given the freedom to share their thoughts in a non-judgemental environment with sessions being proctored by a trained psychiatrist. If one feels that another individual is disruptive or disrespectful, the psychiatrist has the ability to “kick” and “block” another person to maintain the safe space.                </p>
+                    </div>
+
+                  </div>
+
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                        <div class="resume-content">
+                          <div class="subheading mb-3"> What customer gain does each product gain creator address (and how, if not obvious)</div>
+                          <p>This application will look to simulate actual group therapy in a virtual environment by allowing users to schedule their sessions and help build support for one another through these sessions. This application will look to organize the sessions that users have enrolled in and use it as a tool for scheduling purposes. In addition, users interacting with the application will have the ability to directly contact the instructor of the course to get direct feedback on any issues that are concerning. </p>
+                        </div>
+    
+                      </div>
+
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                        <div class="resume-content">
+                          <div class="subheading mb-3">How do the listed key metrics provide accurate evaluation of your product’s success? </div>
+                          <p> Having this information at our disposal will help clarify whether our application is useful in tackling mental health issues. The amount of activity that is generated will give us a clear sense of who is constantly engaging in this sessions and let us know whether our initial goal of building a community of trust will be able to be reached.  </p>
+                        </div>
+    
+                      </div>
+          
+                </div>
+              </section>
+
+
+
+
+              <hr class="m-0">
+
+              <section class="resume-section p-5 p-lg-10 justify-content-center" id="research">
+                <div class="w-100">
+                  <h2 class="mb-5"> Research Method </h2>
+          
+                  <div class="resume-item flex-column flex-md-row justify-content-between mb-10">
+                    <div class="resume-content">
+                      <h3 class="mb-0">Title: Understand our target audience through surveys                        </h3>
+
+                    </div>
+
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                            <section class=" colTop py-3 mb-2"> 
+ 
+
+                                    <div class="row" >
+                                        <div class="col-md-6 col-sm-12">
+
+                                        
+                                            <p>Method Summary: As stated on QuestionPro.com, “Survey data is defined as the resultant data that is collected from a sample of respondents that took a survey. This data is comprehensive information gathered from a target audience about a particular topic of interest to conduct research on the basis of this collected data.”
+                                            
+                                            </p>
+                                            <div class="col-md-10 col-sm-12">
+                                                <h5><span class="text-muted leftText"> Research Design/Implementation:                   </span></h5>
+                                                <p> The research was conducted by distributing out the surveys to different people by email. Through e-mail people would access the survey and would give their responses to the questions. 
+                                                  </p>
+                                                
+                                            </div>
+                            
+                                        </div>
+                            
+                                        <div class="col-md-6 col-sm-12">
+                                            <app-research-canvas> </app-research-canvas>
+                                      </div>
+                            
+                                        
+                                        <div class="col-md-10 col-sm-12">
+                                            <h5><span class="text-muted leftText"> Data Collection:                   </span></h5>
+                                            <p> The data that was collected was information about our target audience. We wanted to know their race, age, and school level. Other information that we wanted to know is if our target audience has ever had therapy before in the past or if they know anybody who has had it. Some other information that was obtained was them working in groups and whether or not they like sharing problems with others. Along with wanting to know that, we also wanted to know if whether or not they have had experience with harassment themselves or do they know anybody who has dealt with that before and how did they go about dealing with it. We also wanted to know if whether or not our target audience has had experience with virtual reality before. And lastly, we wanted to know how often do our users post on social media.
+                                                </p>
+                                        </div>
+                            
+                                        <div class="col-md-10 col-sm-12">
+                                            <h5><span class="text-muted leftText"> Analysis:                   </span></h5>
+                                            <p>  Through our surveys, we were able to obtain different info about our target audience. We were able to obtain our users demographics, age, level of education, past therapy, group participation, sharing with others, past harassment, virtual reality experience, and how often do they post on social media. All of this data was analyzed using categorical data. We looked at question and looked at which answer got the highest percentage for responses. Whichever answer got the highest response was what we came to for our conclusion for the question. 
+                                                </p>
+                                        </div>
+                            
+                                    </div>
+                            
+                            
+                                  </section>
+
+                    </div>
+
+                  </div>
+
+        
+                </div>
+          
+              </section>
+
+
+
+
+
+              <hr class="m-0">
+
+              <section class="resume-section p-5 p-lg-10 justify-content-center" id="prototype">
+                <div class="w-100">
+                  <h2 class="mb-5"> Prototype </h2>
+          
+                  <div class="resume-item flex-column flex-md-row justify-content-between mb-10">
+                    <div class="resume-content">
+                    </div>
+
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                            <div class="row" >
+                                    <div class="col-md-6 col-sm-12">
+                                        <h5><span class="text-muted leftText"> Goal:                 </span></h5>
+                        
+                                    
+                                        <p> The main objectives of this iteration were to get people to create the layout of the application and get feedback on the key features that our application would have.
+                                            </p>
+                        
+                                        <div class="col-md-10 col-sm-12">
+                                            <h5><span class="text-muted leftText"> Summary:               </span></h5>
+                                            <p>  The main features present in this build are the basic layout of the app, the integrated mental health test, as well as basic scheduling layouts 
+                                                </p>
+                                        </div>
+                        
+                                        <div class="col-md-10 col-sm-12">
+                                            <h5><span class="text-muted leftText">Link: <a href=" https://marvelapp.com/1cfdc5d6"> https://marvelapp.com/1cfdc5d6   </a>                   </span></h5>
+                                        </div>
+                        
+                                        <div class="col-md-10 col-sm-12">
+                                            <h5><span class="text-muted leftText"> Assessment:                   </span></h5>
+                                            <p> We planned to achieve the objectives through the creation of a functional mock-up that would allow us to test transitions and basic application interactions such as the mental health screening procedure.
+                                                </p>
+                                        </div>
+                        
+                        
+                                    </div>
+                        
+                                    <div class="col-md-6 col-sm-12">
+                                        <app-prototype-slider > </app-prototype-slider>
+                                  </div>
+                        
+                                    
+                        
+                        
+                                    <div class="col-md-10 col-sm-12">
+                                        <h5><span class="text-muted leftText"> Data Collection:           </span></h5>
+                                        <p> The data that was collected was mainly through usability tests. We gathered several individuals who were close to the target audience and asked them to perform certain tasks within the application. We observed and analyzed the way they accomplished these tasks and then followed up with a basic questionnaire on their experience performing those tasks.
+                                            </p>
+                                    </div>
+                        
+                                    <div class="col-md-10 col-sm-12">
+                                        <h5><span class="text-muted leftText">Analysis and results:      </span></h5>
+                                        <p>Once we had written down our observations as well as the answers to our questionnaire, we proceeded to look for any commonly occurring problems within our users. Any issues that the individuals had, we would write down as potential needed improvements. In regards to what we found, we discovered issues with regards to enrolling in a session. What we found was that people expected enrollment to be available anywhere that the sessions were viewable. Furthermore we found that some people expected the appointments to be in profile instead of the calendar section.
+                                            </p>
+                                    </div>
+                        
+                                    <div class="col-md-10 col-sm-12">
+                                        <h5><span class="text-muted leftText"> Lessons Learned:                   </span></h5>
+                                        <p> What we mainly learned from this design was whether the layout was intuitive or not. We learned that we had to change our design to flow more easily to where the users would most likely look for certain features.
+                                            </p>
+                                    </div>
+                        
+                                </div>
+
+                    </div>
+
+                  </div>
+
+        
+                </div>
+          
+              </section>
+
+
+
+              
+              <hr class="m-0">
+
+              <section class="resume-section p-5 p-lg-10 justify-content-center" id="mvp">
+                <div class="w-100">
+                  <h2 class="mb-5"> MVP VISUAL DESIGN AND SPECIFICATION                    </h2>
+          
+                  <div class="resume-item flex-column flex-md-row justify-content-between mb-10">
+                    <div class="resume-content">
+                    </div>
+                    <div class="row" >
+                            <div class="col-md-10 col-sm-12">
+                                <h5><span class="text-muted leftText"> Product Hypothesis:                 </span></h5>
+                  
+                            
+                                <p>Our product will provide a non-intimidating and confidential solution to combat mental health issues by building a community of trust through virtual reality group therapy. It will solve mental health issues for people with age from 20 to 30 by providing a virtual space for group therapy sessions. A way in which we can know that we accomplished this goal would be having a solid number of daily and active unique users making appointments and scheduling sessions through our mobile application. We will also look at which ways this application looks to improve the lives of others through future study of customer behavior using the application.
+                                    </p>
+                            </div>
+                  
+                                <div class="col-md-10 col-sm-12">
+                                    <h5><span class="text-muted leftText"> Implication:              </span></h5>
+                                    <p>It is important to build the best software that fits the user.
+                                        </p>
+                                </div>
+                  
+                                <div class="col-md-10 col-sm-12">
+                                    <h5><span class="text-muted leftText"> Evaluation:              </span></h5>
+                                    <ul class="bulletStyle"> <li> Metrics: Customer Satisfaction
+                                      </li>
+                                      <li> Data Collection: Survey                    </li>
+                                      <li>Assessment Plan: Give out survey with a series of questions                    </li>
+                                    </ul>
+                                </div>
+                  
+                                <div class="col-md-10 col-sm-12">
+                                  <h5><span class="text-muted leftText"> Design:              </span></h5>
+                                  <p >Our user interface design is simple, clean, and straightforward. The user can easily navigate through the list of psychiatrists, information about each psychiatrist, sign up for classes, pay for classes, and edit their profile. We decided to use the ionic framework so we can easily make the app compatible with android and iOS with consistent user interface.
+                                    </p>
+                              </div>
+                  
+                              <div class="col-md-10 col-sm-12">
+                                  <h5><span class="text-muted leftText"> Specifications:                </span></h5>
+                                  <p> There are three main pages for the software, Home, Schedule, and Profile. In the Home page, the user will see all available psychiatrists. Clicking into the psychiatrist, the user will see detailed information on that psychiatrist. The schedule page will allow the users to see class schedule in a calendar form. They can sign up for classes or modify classes they signed up for. The profile page allows the users to change the app settings, edit profile, edit payment option, and see software terms and account privacy information.
+                                  </p>
+                              </div>
+                  
+                   
+                  
+                        </div>
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+
+                    </div>
+
+                  </div>
+
+        
+                </div>
+          
+              </section>
+
+
+
+
+              <hr class="m-0">
+
+              <section class="resume-section p-5 p-lg-10 justify-content-center" id="video">
+                <div class="w-100">
+                  <h2 class="mb-5"> Video Demo                   </h2>
+          
+                  <div class="resume-item flex-column flex-md-row justify-content-between mb-10">
+                    <div class="resume-content">
+
+                                    <div class="iframe-container">
+                                    <iframe width="560px" height="215px" src="https://www.youtube.com/embed/_jlsf35ncy0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+
+                    </div>
+                  </div>
+          
+                  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+
+                            <div class="row" >
+                                    <div class="col-md-10 col-sm-12">
+                                            <h2 class="mb-5"> Findings              </h2>
+                          
+                                    
+                                        <p> Since the application was developed on a web based framework of Ionic and Angular, we were at first designing the application to fit the purposes of looking like a website. However after introducing it to several individuals looking to test it, they felt that the application should be more mobile friendly. Suggestions included having larger buttons so that users can easily tap the selection they made on their mobile device and proceed with their tasks. We also placed buttons where users expect to find them such as in the bottom right corner when filling out a form and or highlighting areas in which places individuals can touch on. In addition, some of the individuals in which we tested with detailed that the text could be more readable. As a team we decided to increase font sizes of the text and added color in spots which were necessary such as titles of pages and on buttons. 
+                                        </p> 
+                                          <p>Another valuable piece of information that we got from our testing was clarifying the process of going into a virtual reality session and how that would play out. Initially we wanted the idea of the app in which we can load the virtual realty sessions within our product MVP, but realized that was some constraints in terms of implementation that would not make it feasible within the 3 months time span that we had. A solution that we gartnered as a team was instead using an already pre-existing application known as vTime to assist in generating the virtual reality sessions. This information is conveyed once users officially enroll into a course of their choosing. Users of our initially testing was confused of how the virtual reality sessions will actually be presented and questioned whether it would be on our mobile application itself. So as a team we decided to introduce instructional sliders which break down the process of how to go into the virtual reality session. However, ideally for our next iteration we would like this feature to be within our mobile application itself. Users would get a push notification of when their session will start and would then load up their session once ready. 
+                                          </p>
+                                            <p>As a team we also got some feedback on how this application could be used as a more intimately and help build relationships As a team we also got some feedback on how this application could be used as a more intimately and help build relationships 
+                                            </p>
+                                    </div>
+                          
+
+                          
+                                        <div class="col-md-10 col-sm-12">
+                                                <h2 class="mb-5"> Conclusion          </h2>
+                                            <p> For the time being most of our application is based on the user’s side of the application and how they can enroll into group therapy sessions, but from our user testing it would also be valuable to develop how the application will be viewed in terms of the proctor’s point of view. Details like classes being taught, students enrolled, and class details will be useful for proctors to help monitor each session.
+                                            </p>
+                                              <p> Additionally, we will look to incorporate more user testing within our development process to get valuable feedback on what is desired and how it will be used. This would include doing usability testing specifically for the proctors and get feedback on whether this idea is feasible or desirable. We felt that we could have spent much more considerable time in interviewing trained counselors and or psychiatrist to get feedback on whether this application could provide value in their workspace.                                                 </p>
+                                              <p>In addition, we will also hopefully bring a tighter integration on vTime and the process of loading up a virtual reality session. vTime’s user experience is not fully fleshed out and we would like our users to easily load into a session without providing complications. Essentially adding more of a detailed documentation of what it means to load into a session. However, at the time there is no readily available vTime API integration which may constrain our development. Adding a feature which can document  features of vTime within our MVP would also provide dividends in explaining how the VR sessions can be joined. In the future we will hope to ingrain also a better collaboration between design and implementation so that aesthetically the application could be much more user friendly. 
+                                              </p>
+                                        </div>
+                          
+            
+
+                          
+                           
+                          
+                                </div>
+                    </div>
+
+                  </div>
+
+        
+                </div>
+          
+              </section>
+
+
+
+
+
+
+
+
+
 
 
         
-<section class="bg-light colTop py-3 mb-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">  <img  class="img-fluid"  src="assets/images/VRTherapy/testing.png"> </div>
-                <div class="col-md-6">  <img class="img-fluid"  src="assets/images/VRTherapy/etc.png" >   </div>
-            </div>
-        </div>
-    </section>
+
     
     
 
@@ -79,313 +518,20 @@
 
 
 
-  <div class="container">
-
-      <h2 class="mt-4"> Introduction </h2>
-
-        <div class="row">
-            <div class="col-md-10 col-sm-12">
-
-                <ul class="bulletStyle"> <li>Our primary goal as a team was to find ways to build a network of support and a sense of belonging for individuals who are looking to tackle issues together in a non-intimidating and safe space. To do this, our team looked to design and build a mobile application in which users can schedule group therapy sessions through virtual reality. Users can take a free screening test - from the mental health america - with topics such as depression, anxiety, PTSD, etc to get feedback based on their answers from a questionnaire. Whichever results the users receive, the application will recommend different sessions in which they can enroll onto. Individuals can choose whichever sessions are convenient for them and determine the times in which they can join. Each session will be proctored by a trained psychiatrist who will guide conversation about whichever topic that is being discussed. The actual virtual reality session will then actually be utilized by a separate application known as vTime which supports group VR session through a mobile device. Users will have the option to choose their screen name and display the way look through the vTime application. In addition, each member must comply with the code of conduct that are set in place before joining a session, detailing the proper way of conversing within a group. Within these sessions individuals will meet to solve any problems, achieve any personal goals, track their emotions, improve communication and social skills and build the life they deserve. 
-                  </li>
-                </ul>
-            </div>
-
-        </div>
-
-
-        <hr class="featurette-divider">
-
-
-  </div>
-
-
-  
-  <div class="container ">
-        <section class="bg-light colTop py-3 mb-2">
-
-      <div class="row"  id ="over" style="display:table-cell; vertical-align:middle; text-align:center">
-
-          <div class ="col-sm-12" >
-               
-              <figure> 
-               <p> <img class="img-fluid"  src="https://static1.squarespace.com/static/5c9acc54f4e53176d6f6ca73/t/5c9c07f6f4e1fc9cfaea3da6/1553729531166/lean.png?format=1500w" >
-
-               </figure>
-           </div> 
-          
-      </div>
-</section>
-
-
-
-      <h2 class="mt-4"> Additional Notes on Lean Canvas </h2>
-
-        <div class="row" >
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> What characteristics of your early adopters make them valuable to the product development?                  </span></h5>
-
-            
-                <ul class="bulletStyle"> <li>We primarily would target adults from ages 20 to 30 years who seem to be dealing with any type of anxiety of trauma in their lives. Usually individuals in these stages of their lives deal with a considerable amount of stress due to may of life’s changes in dealing with expenses, education, romance and career oriented goals. A study done at the Center on Healthy Aging at the University of California, San Diego detailed that those that are older seemed to be satisfied with their mental health, whereas those who are in their 20s and 30s reported to have much more exposure towards higher levels of stress, depression and anxiety. In addition, the individuals who within the ages of 20 and 30s are more likely to be comfortable using new and progressive technologies to improve their wellness and we speculated that this age group would likely consider using VR technology.
-                  </li>
-                </ul>
-            </div>
-
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Why are your channels effective in reaching your targeted early adopters?                  </span></h5>
-                <ul class="bulletStyle"> <li> We felt that if we exposed this application within already established therapy location, we could adopt users who are already using group therapy as a way to deal with their issues. This would be viewed as another alternative to help express their concerns in a much more convenient fashion than physically going to a seminar. In this day and age, it is also important to have a social media presence to help get good exposure to your brand and application to reach as many people as possible. 
-                  </li>
-                </ul>
-            </div>
-
-            
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> How do the listed key metrics provide accurate evaluation of your product’s success?                  </span></h5>
-                <ul class="bulletStyle"> <li> Having this information at our disposal will help clarify whether our application is useful in tackling mental health issues. The amount of activity that is generated will give us a clear sense of who is constantly engaging in this sessions and let us know whether our initial goal of building a community of trust will be able to be reached. 
-                  </li>
-                </ul>
-            </div>
-
-        </div>
-
-        <section class="bg-light colTop py-3 mb-2">
-
-        <div class="row"  id ="over" style="display:table-cell; vertical-align:middle; text-align:center">
-
-            <div class ="col-sm-12" >
-                 
-                <figure> 
-                 <p> <img style="max-width: 100%"  src="https://static1.squarespace.com/static/5c9acc54f4e53176d6f6ca73/t/5c9c08bcfa0d6001708770b2/1553729728991/customer.png?format=1500w" >
-  
-                 </figure>
-             </div> 
-            
-        </div>
-        </section>
-
-        <h2 class="mt-4">Additional Notes for Value Proposition Canvas       </h2>
-
-        <div class="row">
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> What customer pain does each product pain reliever address (and how, if not obvious)                  </span></h5>
-
-            
-                <ul class="bulletStyle"> <li> This application will give users the flexibility to schedule group therapy sessions within the times they are most available and to their choosing. Individuals no longer have to dedicate time to physically locate and determine which psychiatrist will be best for them, rather they can use this application to browse the different type of sessions that are offered. In addition, users can get a understanding of how the application is used given their ability to freely use it for the first 30 days. 
-                  </li>
-                  <li> Those that enter actual group therapy may feel uncomfortable sharing their thoughts and emotions with others and are unsure what type of reactions they will receive. The way in which this application looks to relive this issue is by allowing users to create their own avatars of themselves through vTime and allow them to set their own screen name so that their likeness will not be publicized. Those who may feel embarrassed who go to traditional group therapy sessions will be given the freedom to share their thoughts in a non-judgemental environment with sessions being proctored by a trained psychiatrist. If one feels that another individual is disruptive or disrespectful, the psychiatrist has the ability to “kick” and “block” another person to maintain the safe space.                     </li>
-                </ul>
-            </div>
-
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> What customer gain does each product gain creator address (and how, if not obvious)                  </span></h5>
-                <ul class="bulletStyle"> <li>This application will look to simulate actual group therapy in a virtual environment by allowing users to schedule their sessions and help build support for one another through these sessions. This application will look to organize the sessions that users have enrolled in and use it as a tool for scheduling purposes. In addition, users interacting with the application will have the ability to directly contact the instructor of the course to get direct feedback on any issues that are concerning. 
-                  </li>
-                </ul>
-            </div>
-
-            
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> How do the listed key metrics provide accurate evaluation of your product’s success?                  </span></h5>
-                <ul class="bulletStyle"> <li> Having this information at our disposal will help clarify whether our application is useful in tackling mental health issues. The amount of activity that is generated will give us a clear sense of who is constantly engaging in this sessions and let us know whether our initial goal of building a community of trust will be able to be reached. 
-                  </li>
-                </ul>
-            </div>
-
-        </div>
-
-
-  </div>
-
-
-  <div class="container">
-
-      
-      <h2 class="mt-4"> Research Method     </h2>
-
-        <div class="row" >
-            <div class="col-md-6 col-sm-12">
-                <h5><span class="text-muted leftText">Title: Understanding our Target Audience Through Surveys                  </span></h5>
-                <h6><span class="text-muted leftText">Method: Survey                  </span></h6>
-
-            
-                <ul class="bulletStyle"> <li>Method Summary: As stated on QuestionPro.com, “Survey data is defined as the resultant data that is collected from a sample of respondents that took a survey. This data is comprehensive information gathered from a target audience about a particular topic of interest to conduct research on the basis of this collected data.”
-                  </li>
-                </ul>
-                <div class="col-md-10 col-sm-12">
-                    <h5><span class="text-muted leftText"> Research Design/Implementation:                   </span></h5>
-                    <ul class="bulletStyle"> <li>  The research was conducted by distributing out the surveys to different people by email. Through e-mail people would access the survey and would give their responses to the questions. 
-                      </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="col-md-6 col-sm-12">
-                <app-research-canvas> </app-research-canvas>
-          </div>
-
-            
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Data Collection:                   </span></h5>
-                <ul class="bulletStyle"> <li> The data that was collected was information about our target audience. We wanted to know their race, age, and school level. Other information that we wanted to know is if our target audience has ever had therapy before in the past or if they know anybody who has had it. Some other information that was obtained was them working in groups and whether or not they like sharing problems with others. Along with wanting to know that, we also wanted to know if whether or not they have had experience with harassment themselves or do they know anybody who has dealt with that before and how did they go about dealing with it. We also wanted to know if whether or not our target audience has had experience with virtual reality before. And lastly, we wanted to know how often do our users post on social media.
-                  </li>
-                </ul>
-            </div>
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Analysis:                   </span></h5>
-                <ul class="bulletStyle"> <li> Through our surveys, we were able to obtain different info about our target audience. We were able to obtain our users demographics, age, level of education, past therapy, group participation, sharing with others, past harassment, virtual reality experience, and how often do they post on social media. All of this data was analyzed using categorical data. We looked at question and looked at which answer got the highest percentage for responses. Whichever answer got the highest response was what we came to for our conclusion for the question. 
-                  </li>
-                </ul>
-            </div>
-
-        </div>
-
-
-
-  </div>
-
-
-  <div class="container">
-
-      
-      <h2 class="mt-4"> Prototype     </h2>
-
-        <div class="row" >
-            <div class="col-md-6 col-sm-12">
-                <h5><span class="text-muted leftText"> Goal:                 </span></h5>
-
-            
-                <ul class="bulletStyle"> <li>The main objectives of this iteration were to get people to create the layout of the application and get feedback on the key features that our application would have.
-                  </li>
-                </ul>
-
-                <div class="col-md-10 col-sm-12">
-                    <h5><span class="text-muted leftText"> Summary:               </span></h5>
-                    <ul class="bulletStyle"> <li>  The main features present in this build are the basic layout of the app, the integrated mental health test, as well as basic scheduling layouts 
-                      </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-10 col-sm-12">
-                    <h5><span class="text-muted leftText">Link: <a href=" https://marvelapp.com/1cfdc5d6"> https://marvelapp.com/1cfdc5d6   </a>                   </span></h5>
-                </div>
-
-                <div class="col-md-10 col-sm-12">
-                    <h5><span class="text-muted leftText"> Assessment:                   </span></h5>
-                    <ul class="bulletStyle"> <li> We planned to achieve the objectives through the creation of a functional mock-up that would allow us to test transitions and basic application interactions such as the mental health screening procedure.
-                      </li>
-                    </ul>
-                </div>
-
-
-            </div>
-
-            <div class="col-md-6 col-sm-12">
-                <app-prototype-slider > </app-prototype-slider>
-          </div>
-
-            
-
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Data Collection:           </span></h5>
-                <ul class="bulletStyle"> <li>The data that was collected was mainly through usability tests. We gathered several individuals who were close to the target audience and asked them to perform certain tasks within the application. We observed and analyzed the way they accomplished these tasks and then followed up with a basic questionnaire on their experience performing those tasks.
-                  </li>
-                </ul>
-            </div>
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText">Analysis and results:      </span></h5>
-                <ul class="bulletStyle"> <li> Once we had written down our observations as well as the answers to our questionnaire, we proceeded to look for any commonly occurring problems within our users. Any issues that the individuals had, we would write down as potential needed improvements. In regards to what we found, we discovered issues with regards to enrolling in a session. What we found was that people expected enrollment to be available anywhere that the sessions were viewable. Furthermore we found that some people expected the appointments to be in profile instead of the calendar section.
-                  </li>
-                </ul>
-            </div>
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Lessons Learned:                   </span></h5>
-                <ul class="bulletStyle"> <li> What we mainly learned from this design was whether the layout was intuitive or not. We learned that we had to change our design to flow more easily to where the users would most likely look for certain features.
-                  </li>
-                </ul>
-            </div>
-
-        </div>
-
-
-
-  </div>
-
-
-  
-  <div class="container">
-
-    <h2 class="mt-4">MVP Visual Design and Specification   </h2>
-
-      <div class="row" >
-          <div class="col-md-10 col-sm-12">
-              <h5><span class="text-muted leftText"> Product Hypothesis:                 </span></h5>
-
-          
-              <ul class="bulletStyle"> <li>Our product will provide a non-intimidating and confidential solution to combat mental health issues by building a community of trust through virtual reality group therapy. It will solve mental health issues for people with age from 20 to 30 by providing a virtual space for group therapy sessions. A way in which we can know that we accomplished this goal would be having a solid number of daily and active unique users making appointments and scheduling sessions through our mobile application. We will also look at which ways this application looks to improve the lives of others through future study of customer behavior using the application.
-                </li>
-              </ul>
-          </div>
-
-              <div class="col-md-10 col-sm-12">
-                  <h5><span class="text-muted leftText"> Implication:              </span></h5>
-                  <ul class="bulletStyle"> <li>  It is important to build the best software that fits the user.
-                    </li>
-                  </ul>
-              </div>
-
-              <div class="col-md-10 col-sm-12">
-                  <h5><span class="text-muted leftText"> Evaluation:              </span></h5>
-                  <ul class="bulletStyle"> <li> Metrics: Customer Satisfaction
-                    </li>
-                    <li> Data Collection: Survey                    </li>
-                    <li>Assessment Plan: Give out survey with a series of questions                    </li>
-                  </ul>
-              </div>
-
-              <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Design:              </span></h5>
-                <ul class="bulletStyle"> <li> 	Our user interface design is simple, clean, and straightforward. The user can easily navigate through the list of psychiatrists, information about each psychiatrist, sign up for classes, pay for classes, and edit their profile. We decided to use the ionic framework so we can easily make the app compatible with android and iOS with consistent user interface.
-                  </li>
-                </ul>
-            </div>
-
-            <div class="col-md-10 col-sm-12">
-                <h5><span class="text-muted leftText"> Specifications:                </span></h5>
-                <ul class="bulletStyle"> <li> 	There are three main pages for the software, Home, Schedule, and Profile. In the Home page, the user will see all available psychiatrists. Clicking into the psychiatrist, the user will see detailed information on that psychiatrist. The schedule page will allow the users to see class schedule in a calendar form. They can sign up for classes or modify classes they signed up for. The profile page allows the users to change the app settings, edit profile, edit payment option, and see software terms and account privacy information.
-                </ul>
-            </div>
+ 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
  
 
-      </div>
 
-</div>
-
-
-<div class="container">
-        <div class="iframe-container">
-        <iframe width="560px" height="215px" src="https://www.youtube.com/embed/_jlsf35ncy0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
- 
-
-    <hr class="featurette-divider">
-    <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>Get in Touch <a href="https://www.linkedin.com/in/jason-almaraz-831374178/"> LinkedIn </a> </p>
-      </footer>
-    
-
-
-
-</div>
 
 
 </body>

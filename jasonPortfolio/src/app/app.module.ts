@@ -13,6 +13,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { VRTherapyComponent } from './components/pages/vrtherapy/vrtherapy.component';
 import { ResearchCanvasComponent } from './research-canvas/research-canvas.component';
 import { PrototypeSliderComponent } from './prototype-slider/prototype-slider.component';
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,8 @@ import { PrototypeSliderComponent } from './prototype-slider/prototype-slider.co
     AppRoutingModule,
     NgbModule,
     CarouselModule.forRoot(),
+    Ng2PageScrollModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
