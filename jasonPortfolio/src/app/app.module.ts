@@ -14,6 +14,9 @@ import { VRTherapyComponent } from './components/pages/vrtherapy/vrtherapy.compo
 import { ResearchCanvasComponent } from './research-canvas/research-canvas.component';
 import { PrototypeSliderComponent } from './prototype-slider/prototype-slider.component';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
+import { UsecaseComponent } from './components/pages/usecase/usecase.component';
+import { ComponentsComponent } from './components/components.component';
+import { UsecasepptComponent } from './usecaseppt/usecaseppt.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,13 @@ import {Ng2PageScrollModule} from 'ng2-page-scroll';
     
     ResearchCanvasComponent,
     
-    PrototypeSliderComponent
+    PrototypeSliderComponent,
+    
+    UsecaseComponent,
+    
+    ComponentsComponent,
+    
+    UsecasepptComponent
   ],
   imports: [
     BrowserModule,
