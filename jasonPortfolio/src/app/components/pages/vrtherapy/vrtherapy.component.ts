@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vrtherapy.component.css']
 })
 export class VRTherapyComponent implements OnInit {
+  public isCollapsed = true;
 
   constructor() { }
 

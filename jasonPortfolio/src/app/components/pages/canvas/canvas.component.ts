@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./canvas.component.css']
 })
 export class CanvasComponent implements OnInit {
-  public isCollapsed = false;
+  public isCollapsed = true;
 
   constructor() { }
 
