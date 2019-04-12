@@ -150,7 +150,7 @@
   }
   
   #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #18BC9C;
+    color: #C8102E;
   }
   
   #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -158,7 +158,7 @@
   }
   
   #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #18BC9C;
+    color: #C8102E;
   }
   
   #mainNav .navbar-toggler {
@@ -187,7 +187,7 @@
     }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
       color: #fff;
-      background: #18BC9C;
+      background: #C8102E;
     }
     #mainNav.navbar-shrink {
       padding-top: 0.5rem;
@@ -242,7 +242,7 @@
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background-color: rgba(24, 188, 156, 0.9);
+    background-color: rgba(180,151,90, 0.7);
   }
   
   .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -343,7 +343,7 @@
   }
   
   .floating-label-form-group-with-focus label {
-    color: #18BC9C;
+    color: #C8102E;
   }
   
   form .row:first-child .floating-label-form-group {
@@ -362,11 +362,11 @@
   }
   
   a {
-    color: #18BC9C;
+    color: #85714D;
   }
   
   a:focus, a:hover, a:active {
-    color: #128f76;
+    color: #85714D;
   }
   
   .btn {
