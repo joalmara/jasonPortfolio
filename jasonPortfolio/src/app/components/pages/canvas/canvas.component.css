@@ -315,7 +315,7 @@ figcaption{
 
   
   .dev-icons .list-inline-item i:hover {
-    color: #BD5D38;
+    color: #85714D;
   }
   
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -325,7 +325,7 @@ figcaption{
   }
   
   #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e;
+    outline-color: #85714D;
   }
   
   @media (min-width: 992px) {
@@ -411,19 +411,19 @@ figcaption{
   }
   
   .bg-primary {
-    background-color: #BD5D38 !important;
+    background-color: #0C2340 !important;
   }
   
   .text-primary {
-    color: #BD5D38 !important;
+    color: #85714D !important;
   }
   
   a {
-    color: #BD5D38;
+    color: #85714D;
   }
   
   a:hover, a:focus, a:active {
-    color: #824027;
+    color: #85714D;
   }
 
 

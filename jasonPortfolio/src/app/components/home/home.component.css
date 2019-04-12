@@ -75,7 +75,7 @@
   
   hr.star-light:after {
     color: #fff;
-    background-color: #18BC9C;
+    background-color: #85714D;
   }
   
   hr.star-dark {
@@ -374,7 +374,7 @@
   }
   
   .bg-primary {
-    background-color: #18BC9C !important;
+    background-color: #85714D !important;
   }
   
   .bg-secondary {
@@ -382,7 +382,7 @@
   }
   
   .text-primary {
-    color: #18BC9C !important;
+    color: #A1A1A4 !important;
   }
   
   .text-secondary {
@@ -390,13 +390,13 @@
   }
   
   .btn-primary {
-    background-color: #18BC9C;
-    border-color: #18BC9C;
+    background-color: #85714D;
+    border-color: #85714D;
   }
   
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #128f76;
-    border-color: #128f76;
+    background-color: #85714D;
+    border-color: #85714D;
   }
   
   .btn-secondary {
@@ -405,8 +405,8 @@
   }
   
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-    background-color: #1a252f;
-    border-color: #1a252f;
+    background-color: #0C2340;
+    border-color: #0C2340;
   }
 
 
