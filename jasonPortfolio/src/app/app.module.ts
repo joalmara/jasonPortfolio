@@ -17,6 +17,7 @@ import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import { UsecaseComponent } from './components/pages/usecase/usecase.component';
 import { ComponentsComponent } from './components/components.component';
 import { UsecasepptComponent } from './usecaseppt/usecaseppt.component';
+import { ErrorComponent } from './components/pages/error/error.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { UsecasepptComponent } from './usecaseppt/usecaseppt.component';
     
     ComponentsComponent,
     
-    UsecasepptComponent
+    UsecasepptComponent,
+    
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
